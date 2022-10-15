@@ -1,0 +1,22 @@
+{
+    "$link": {
+        "value": "{$teal6}",
+        "type": "color"
+    },
+    "$link-hover": {
+        "value": "{$teal7}",
+        "type": "color"
+    },
+    "$link-subtle": {
+        "value": "{$teal5}",
+        "type": "color"
+    },
+    "$link-visited": {
+        "value": "{$lavender6}",
+        "type": "color"
+    },
+    "$link-muted": {
+        "value": "{$silver8}",
+        "type": "color"
+    }
+  }

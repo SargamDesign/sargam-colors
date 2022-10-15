@@ -1,0 +1,18 @@
+{
+    "$support-error": {
+      "value": "{$red5}",
+      "type": "color"
+    },
+    "$support-warning": {
+      "value": "{$yellow5}",
+      "type": "color"
+    },
+    "$support-success": {
+      "value": "{$green5}",
+      "type": "color"
+    },
+    "$support-info": {
+      "value": "{$teal5}",
+      "type": "color"
+    }
+  }
