@@ -1,0 +1,28 @@
+{
+  "name": "@sargamdesign/colors",
+  "version": "0.2.0",
+  "description": "An open-source color system for crafting gorgeous, accessible websites and apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SargamDesign/sargam-colors.git"
+  },
+  "keywords": [
+    "colors",
+    "color-palette",
+    "themes",
+    "tokens",
+    "design-tokens",
+    "design-system",
+    "color-system"
+  ],
+  "author": "Abhimanyu Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SargamDesign/sargam-colors/issues"
+  },
+  "homepage": "https://github.com/SargamDesign/sargam-colors#readme"
+}

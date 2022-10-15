@@ -18,17 +18,15 @@ sargam-colors/
 │  │  ├─ icon.json
 │  │  ├─ border.json
 │  │  ├─ background.json
-│  ├─ global/
-│  │  ├─ silvers.json
-│  │  ├─ pink.json
-│  │  ├─ lavender.json
-│  │  ├─ teal.json
-│  │  ├─ green.json
-│  │  ├─ yellow.json
-│  │  ├─ red.json
+│  ├─ red.json
+│  ├─ yellow.json
+│  ├─ green.json
+│  ├─ teal.json
+│  ├─ lavender.json
+│  ├─ pink.json
+│  ├─ silvers.json
 
 ```
-
 
 ### Get a Figma copy
 - [Light Theme](https://www.figma.com/community/file/1161992682973418812)
