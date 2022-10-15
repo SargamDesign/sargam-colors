@@ -1,0 +1,34 @@
+{
+    "$green1": {
+      "value": "#F6FBF7",
+      "type": "color"
+    },
+    "$green2": {
+      "value": "#BDE6CA",
+      "type": "color"
+    },
+    "$green3": {
+      "value": "#5FC37E",
+      "type": "color"
+    },
+    "$green4": {
+      "value": "#3AB55F",
+      "type": "color"
+    },
+    "$green5": {
+      "value": "#14A741",
+      "type": "color"
+    },
+    "$green6": {
+      "value": "#118C37",
+      "type": "color"
+    },
+    "$green7": {
+      "value": "#0C6427",
+      "type": "color"
+    },
+    "$green8": {
+      "value": "#073C17",
+      "type": "color"
+    }
+  }

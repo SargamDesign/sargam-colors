@@ -1,0 +1,34 @@
+{
+    "$yellow1": {
+      "value": "#FFFDF5",
+      "type": "color"
+    },
+    "$yellow2": {
+      "value": "#FCF2BC",
+      "type": "color"
+    },
+    "$yellow3": {
+      "value": "#F8DE5D",
+      "type": "color"
+    },
+    "$yellow4": {
+      "value": "#F7D737",
+      "type": "color"
+    },
+    "$yellow5": {
+      "value": "#F5CF11",
+      "type": "color"
+    },
+    "$yellow6": {
+      "value": "#CEAE0E",
+      "type": "color"
+    },
+    "$yellow7": {
+      "value": "#937C0A",
+      "type": "color"
+    },
+    "$yellow8": {
+      "value": "#584B06",
+      "type": "color"
+    }
+  }

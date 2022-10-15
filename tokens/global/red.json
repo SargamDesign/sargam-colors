@@ -1,0 +1,34 @@
+{
+    "$red1": {
+      "value": "#FFF7F7",
+      "type": "color"
+    },
+    "$red2": {
+      "value": "#FCC6C5",
+      "type": "color"
+    },
+    "$red3": {
+      "value": "#F77472",
+      "type": "color"
+    },
+    "$red4": {
+      "value": "#F55451",
+      "type": "color"
+    },
+    "$red5": {
+      "value": "#F33330",
+      "type": "color"
+    },
+    "$red6": {
+      "value": "#CC2B28",
+      "type": "color"
+    },
+    "$red7": {
+      "value": "#921F1D",
+      "type": "color"
+    },
+    "$red8": {
+      "value": "#571211",
+      "type": "color"
+    }
+  }
