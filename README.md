@@ -3,6 +3,22 @@
 # Sargam Colors
 An open-source color system for crafting delightful, accessible websites and apps.
 
+## Installation
+Install Sargam Colors from your terminal via npm.
+
+```
+npm i @sargamdesign/colors
+```
+
+Use the CDN files
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@0.4.0/dist/themes/light.min.css" />
+
+```
+
+## Structure
+
 ```
 .
 ├── tokens/
@@ -19,15 +35,13 @@ An open-source color system for crafting delightful, accessible websites and app
         └── dark.css
 ```
 
-### Themes
+## Building themes from tokens
 
-#### Light
+### Light
 - Build theme: `npm run build:tokens -- --theme=light`
-- [Get a Figma copy](https://www.figma.com/community/file/1161992682973418812)
+- [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
 
-#### Dark [WIP]
-- Build theme: `npm run build:tokens -- --theme=dark`
-- [Get a Figma copy](Coming soon)
+(Note: Dark theme coming soon.)
 
-### License
+## License
 MIT License, Copyright (c) 2022 Abhimanyu Rana
