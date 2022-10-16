@@ -1,29 +1,33 @@
+![](Help/cover.png)
+
 # Sargam Colors
-An open-source color system for crafting gorgeous, accessible websites and apps.
+An open-source color system for crafting delightful, accessible websites and apps.
 
 ```
-sargam-colors/
-├─ tokens/
-│  ├─ light-theme/
-│  │  ├─ text.json
-│  │  ├─ support.json
-│  │  ├─ link.json
-│  │  ├─ icon.json
-│  │  ├─ border.json
-│  │  ├─ background.json
-│  ├─ red.json
-│  ├─ yellow.json
-│  ├─ green.json
-│  ├─ teal.json
-│  ├─ lavender.json
-│  ├─ pink.json
-│  ├─ silvers.json
-
+.
+├── tokens/
+│   ├── global/
+│   │   └── global.json
+│   └── themes/
+│       ├── dark/
+│       │   └── dark.json
+│       └── light/
+│           └── light.json
+└── dist/
+    └── themes/
+        ├── light.css
+        └── dark.css
 ```
 
-### Get a Figma copy
-- [Light Theme](https://www.figma.com/community/file/1161992682973418812)
-- [Dark Theme](Coming soon)
+### Themes
+
+#### Light
+- Build theme: `npm run build:tokens -- --theme=light`
+- [Get a Figma copy](https://www.figma.com/community/file/1161992682973418812)
+
+#### Dark [WIP]
+- Build theme: `npm run build:tokens -- --theme=dark`
+- [Get a Figma copy](Coming soon)
 
 ### License
 MIT License, Copyright (c) 2022 Abhimanyu Rana

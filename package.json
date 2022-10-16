@@ -1,10 +1,10 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "0.3.0",
-  "description": "An open-source color system for crafting gorgeous, accessible websites and apps.",
+  "version": "0.4.0",
+  "description": "An open-source color system for crafting delightful, accessible websites and apps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:tokens": "node ./build-tokens.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
     "color-palette",
     "themes",
     "tokens",
+    "tokens-translation",
     "design-tokens",
     "design-system",
     "color-system"
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/SargamDesign/sargam-colors/issues"
   },
-  "homepage": "https://github.com/SargamDesign/sargam-colors#readme"
+  "homepage": "https://github.com/SargamDesign/sargam-colors#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.1"
+  }
 }
