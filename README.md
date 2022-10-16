@@ -1,4 +1,4 @@
-![](Help/cover.png)
+![](help/cover.png)
 
 # Sargam Colors
 An open-source color system for crafting delightful, accessible websites and apps.
