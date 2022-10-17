@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 16 Oct 2022 08:18:51 GMT
+ * Generated on Mon, 17 Oct 2022 05:18:25 GMT
  */
 
 :root {
@@ -80,6 +80,17 @@
   --icon-disabled: var(--silver5);
   --icon-secondary: var(--silver6);
   --icon-primary: var(--silver7);
+  --button-disabled-alt: var(--silver4);
+  --button-disabled: var(--silver5);
+  --button-danger-active: var(--red7);
+  --button-danger-hover: var(--red6);
+  --button-danger: var(--red5);
+  --button-secondary-active: var(--silver6);
+  --button-secondary-hover: var(--silver7);
+  --button-secondary: var(--silver8);
+  --button-primary-active: var(--teal7);
+  --button-primary-hover: var(--teal6);
+  --button-primary: var(--teal5);
   --border-strong: var(--silver6);
   --border-default: var(--silver5);
   --border-muted: var(--silver3);

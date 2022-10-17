@@ -47,6 +47,50 @@
     "value": "{$silver6}",
     "type": "color"
   },
+  "$button-primary": {
+    "value": "{$teal5}",
+    "type": "color"
+  },
+  "$button-primary-hover": {
+    "value": "{$teal6}",
+    "type": "color"
+  },
+  "$button-primary-active": {
+    "value": "{$teal7}",
+    "type": "color"
+  },
+  "$button-secondary": {
+    "value": "{$silver8}",
+    "type": "color"
+  },
+  "$button-secondary-hover": {
+    "value": "{$silver7}",
+    "type": "color"
+  },
+  "$button-secondary-active": {
+    "value": "{$silver6}",
+    "type": "color"
+  },
+  "$button-danger": {
+    "value": "{$red5}",
+    "type": "color"
+  },
+  "$button-danger-hover": {
+    "value": "{$red6}",
+    "type": "color"
+  },
+  "$button-danger-active": {
+    "value": "{$red7}",
+    "type": "color"
+  },
+  "$button-disabled": {
+    "value": "{$silver5}",
+    "type": "color"
+  },
+  "$button-disabled-alt": {
+    "value": "{$silver4}",
+    "type": "color"
+  },
   "$icon-primary": {
     "value": "{$silver7}",
     "type": "color"
