@@ -13,8 +13,8 @@ npm i @sargamdesign/colors
 Use the CDN files
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.0.0/dist/themes/light.min.css" />
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.1.0/dist/themes/light.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.1.0/dist/themes/dark.min.css" />
 ```
 
 ## Structure
@@ -35,13 +35,17 @@ Use the CDN files
         └── dark.css
 ```
 
-## Building themes from tokens
+## Building themes
 
 ### Light
 - Build theme: `npm run build:tokens -- --theme=light`
 - [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
+- [Cheat sheet](cheat_sheets/Sargam%20Colors%20-%20Light%20Theme.pdf)
 
-(Note: Dark theme coming soon.)
+### Dark 
+- Build theme: `npm run build:tokens -- --theme=dark`
+- [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
+- [Cheat sheet](cheat_sheets/Sargam%20Colors%20-%20Dark%20Theme.pdf)
 
 ## License
 MIT License, Copyright (c) 2022 Abhimanyu Rana
