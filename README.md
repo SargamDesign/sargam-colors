@@ -40,12 +40,10 @@ Use the CDN files
 ### Light
 - Build theme: `npm run build:tokens -- --theme=light`
 - [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
-- [Cheat sheet](cheat_sheets/Sargam%20Colors%20-%20Light%20Theme.pdf)
 
 ### Dark 
 - Build theme: `npm run build:tokens -- --theme=dark`
 - [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
-- [Cheat sheet](cheat_sheets/Sargam%20Colors%20-%20Dark%20Theme.pdf)
 
 
 ## Using themes
