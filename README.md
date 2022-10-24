@@ -13,8 +13,8 @@ npm i @sargamdesign/colors
 Use the CDN files
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.1.1/dist/themes/light.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.1.1/dist/themes/dark.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.0/dist/themes/light.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.0/dist/themes/dark.min.css" />
 ```
 
 ## Structure
