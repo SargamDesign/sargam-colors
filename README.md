@@ -1,7 +1,7 @@
 ![](help/cover.png)
 
 # Sargam Colors
-An open-source color system for crafting beautiful, accessible websites and apps.
+An open-source color system for designing mild, heart-warming websites and apps.
 
 ## Installation
 Install Sargam Colors from your terminal via npm.
@@ -10,11 +10,19 @@ Install Sargam Colors from your terminal via npm.
 npm i @sargamdesign/colors
 ```
 
+Import vanilla CSS
+
+```
+import "@sargamdesign/colors/dist/themes/light.css";
+import "@sargamdesign/colors/dist/themes/dark.css";
+```
+
+
 Use the CDN files
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.0/dist/themes/light.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.0/dist/themes/dark.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.1/dist/themes/light.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.1/dist/themes/dark.min.css" />
 ```
 
 ## Structure
@@ -46,7 +54,22 @@ Use the CDN files
 - [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
 
 
-## Using themes
+## Usage
+
+```
+.button {
+  background-color: var(--button-primary);
+  color: var(--text-on-color);
+}
+.button:hover {
+  background-color: var(--button-primary-hover);
+}
+.button:active {
+  background-color: var(--button-primary-active);
+}
+```
+
+## Decision variables
 
 ### Text tokens
 Variable | Value(Light) | Value(Dark)| Role
@@ -124,7 +147,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--background-pink` | *--pink1* | *--pink8* | Subtle pink background
 
 
-## Global tokens
+## Choice tokens
 
 ### Red
 Variable | Value | Color
@@ -216,8 +239,8 @@ Variable | Value | Color
 - iOS, Android, SCSS, JS exports
 - customizing tokens, variable functions
 - JavaScript objects
-- usage guidelines for various styling solutions
-- gloabl silver/grey sequential scales
+- usage and themeing guidelines for various styling solutions
+- global silver/grey sequential scales
 
 ## License
 MIT License, Copyright (c) 2022 Abhimanyu Rana.
