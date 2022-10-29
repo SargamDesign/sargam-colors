@@ -234,6 +234,11 @@ Variable | Value | Color
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
 
+Sargam colors are the language of the beauty, the warmth, and the caress, that comes from the heart of the world. The most direct expression of beauty, with a form and spirit which is one and simple, and least encumbered with anything extraneous.
+
+Sargam is a palette of emancipation which makes it easy to recognize the beauty in small things. True designers, they who are seers, seek to express the universe with sargam colors.
+
+
 ## Future, To do's
 - hsl & hex conversion options
 - iOS, Android, SCSS, JS exports
