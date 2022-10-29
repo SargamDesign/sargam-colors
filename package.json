@@ -1,7 +1,7 @@
 {
   "name": "@sargamdesign/colors",
   "version": "1.2.1",
-  "description": "An open-source color system for designing mild, heart-warming websites and apps.",
+  "description": "An open-source color system for designing warm welcoming, caring websites and apps.",
   "main": "index.js",
   "scripts": {
     "build:tokens": "node ./build-tokens.js"

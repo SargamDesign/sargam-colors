@@ -1,7 +1,7 @@
 ![](help/cover.png)
 
 # Sargam Colors
-An open-source color system for designing mild, heart-warming websites and apps.
+An open-source color system for designing warm welcoming, caring websites and apps.
 
 ## Installation
 Install Sargam Colors from your terminal via npm.
