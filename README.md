@@ -1,7 +1,9 @@
 ![](help/cover.png)
 
 # Sargam Colors
-An open-source color system for designing warm welcoming, caring websites and apps.
+A simple scalable color system for designing warm welcoming, caring websites and apps.
+
+Sargam colors are the language of the beauty, the warmth, and the caress, that comes from the heart of the world. The most direct expression of beauty, with a form and spirit which is one and simple, and least encumbered with anything extraneous. A color system of emancipation which makes it easy to recognize the beauty in small things. True makers, they who are seers, seek to express the universe with sargam colors.
 
 ## Installation
 Install Sargam Colors from your terminal via npm.
@@ -21,38 +23,9 @@ import "@sargamdesign/colors/dist/themes/dark.css";
 Use the CDN files
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.1/dist/themes/light.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.1/dist/themes/dark.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.2/dist/themes/light.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.2/dist/themes/dark.min.css" />
 ```
-
-## Structure
-
-```
-.
-├── tokens/
-│   ├── global/
-│   │   └── global.json
-│   └── themes/
-│       ├── dark/
-│       │   └── dark.json
-│       └── light/
-│           └── light.json
-└── dist/
-    └── themes/
-        ├── light.css
-        └── dark.css
-```
-
-## Building themes
-
-### Light
-- Build theme: `npm run build:tokens -- --theme=light`
-- [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
-
-### Dark 
-- Build theme: `npm run build:tokens -- --theme=dark`
-- [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
-
 
 ## Usage
 
@@ -69,7 +42,7 @@ Use the CDN files
 }
 ```
 
-## Decision variables
+## Decision Variables
 
 ### Text tokens
 Variable | Value(Light) | Value(Dark)| Role
@@ -147,7 +120,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--background-pink` | *--pink1* | *--pink8* | Subtle pink background
 
 
-## Choice tokens
+## Choice Tokens
 
 ### Red
 Variable | Value | Color
@@ -234,9 +207,34 @@ Variable | Value | Color
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
 
-Sargam colors are the language of the beauty, the warmth, and the caress, that comes from the heart of the world. The most direct expression of beauty, with a form and spirit which is one and simple, and least encumbered with anything extraneous.
+## Structure
+Below is the file structure of a Sargam colors project:
 
-Sargam is a palette of emancipation which makes it easy to recognize the beauty in small things. True designers, they who are seers, seek to express the universe with sargam colors.
+```
+.
+├── tokens/
+│   ├── global/
+│   │   └── global.json
+│   └── themes/
+│       ├── dark/
+│       │   └── dark.json
+│       └── light/
+│           └── light.json
+└── dist/
+    └── themes/
+        ├── light.css
+        └── dark.css
+```
+
+## Building Themes
+
+### Light
+- Build theme: `npm run build:tokens -- --theme=light`
+- [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
+
+### Dark 
+- Build theme: `npm run build:tokens -- --theme=dark`
+- [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
 
 
 ## Future, To do's
@@ -252,8 +250,8 @@ MIT License, Copyright (c) 2022 Abhimanyu Rana.
 Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌 
 
 
-### Other links
-- Sargam Colors [[sargamcolors.com]](https://www.sargamcolors.com/) 
+### Other Links
 - Sargam Icons [[sargamicons.com]](https://www.sargamicons.com/) 
+- Sargam Colors [[sargamcolors.com]](https://www.sargamcolors.com/) 
 - Sargam Design [[sargam.design]](https://sargam.design/) 
 - New updates [[@SargamDesign]](https://twitter.com/SargamDesign)
