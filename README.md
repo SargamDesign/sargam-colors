@@ -244,10 +244,18 @@ Below is the file structure of a Sargam colors project:
 - JavaScript objects
 - usage and themeing guidelines for various styling solutions
 - global silver/grey sequential scales
+  
 
 ## License
 MIT License, Copyright (c) 2022 Abhimanyu Rana.
 Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌 
+
+
+[![npm version](https://badge.fury.io/js/@sargamdesign%2Fcolors.svg)](https://badge.fury.io/js/@sargamdesign%2Fcolors) 
+[![](https://data.jsdelivr.com/v1/package/npm/@sargamdesign/colors/badge)](https://www.jsdelivr.com/package/npm/@sargamdesign/colors)
+
+
+---
 
 
 ### Other Links
