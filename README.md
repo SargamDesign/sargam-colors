@@ -6,7 +6,7 @@ A simple scalable color system for designing warm welcoming, caring websites and
 [[sargamcolors.com]](https://www.sargamcolors.com/) 
 
 ## Installation
-Install Sargam Colors from your terminal via npm.
+Install Sargam Colors from your terminal via npm. Current version is 2.0.0
 
 ```
 npm i @sargamdesign/colors
@@ -19,11 +19,14 @@ import "@sargamdesign/colors/dist/themes/light.css";
 import "@sargamdesign/colors/dist/themes/dark.css";
 ```
 
-Use the CDN files
+To get started quickly, you can use the CDN files. However, using the CDN approach is not recommended for production work. It's intended for prototyping only.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.2/dist/themes/light.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.2/dist/themes/dark.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.0.0/dist/themes/light.min.css" />
+```
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.0.0/dist/themes/dark.min.css" />
 ```
 
 ## Usage (Example)
@@ -114,6 +117,7 @@ Variable | Value(Light) | Value(Dark)| Role
 
 
 ## Choice Tokens
+To get started quickly, you can use the choice variables directly. Plus, you can also define new decision variables above using these choices.
 
 ### Red
 Variable | Value | Color
@@ -249,7 +253,7 @@ Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌
 
 ---
 
-### Other Links
+### Other Cool Links
 - Sargam Icons [[sargamicons.com]](https://www.sargamicons.com/) 
 - Sargam Design [[sargam.design]](https://sargam.design/) 
 - For New updates [[@SargamDesign]](https://twitter.com/SargamDesign)

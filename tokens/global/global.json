@@ -1,226 +1,226 @@
 {
   "$green1": {
-    "value": "#F6FBF7",
+    "value": "hsl(132, 38%, 97%)",
     "type": "color"
   },
   "$green2": {
-    "value": "#BDE6CA",
+    "value": "hsl(139, 45%, 82%)",
     "type": "color"
   },
   "$green3": {
-    "value": "#5FC37E",
+    "value": "hsl(139, 45%, 57%)",
     "type": "color"
   },
   "$green4": {
-    "value": "#3AB55F",
+    "value": "hsl(138, 51%, 47%)",
     "type": "color"
   },
   "$green5": {
-    "value": "#14A741",
+    "value": "hsl(138, 79%, 37%)",
     "type": "color"
   },
   "$green6": {
-    "value": "#118C37",
+    "value": "hsl(139, 78%, 31%)",
     "type": "color"
   },
   "$green7": {
-    "value": "#0C6427",
+    "value": "hsl(138, 79%, 22%)",
     "type": "color"
   },
   "$green8": {
-    "value": "#073C17",
+    "value": "hsl(138, 79%, 13%)",
     "type": "color"
   },
   "$lavender1": {
-    "value": "#FAF8FC",
+    "value": "hsl(270, 40%, 98%)",
     "type": "color"
   },
   "$lavender2": {
-    "value": "#DFCFE7",
+    "value": "hsl(280, 33%, 86%)",
     "type": "color"
   },
   "$lavender3": {
-    "value": "#B289C5",
+    "value": "hsl(281, 34%, 65%)",
     "type": "color"
   },
   "$lavender4": {
-    "value": "#A06EB7",
+    "value": "hsl(281, 34%, 57%)",
     "type": "color"
   },
   "$lavender5": {
-    "value": "#8E52A9",
+    "value": "hsl(281, 35%, 49%)",
     "type": "color"
   },
   "$lavender6": {
-    "value": "#77458E",
+    "value": "hsl(281, 35%, 41%)",
     "type": "color"
   },
   "$lavender7": {
-    "value": "#553165",
+    "value": "hsl(282, 35%, 29%)",
     "type": "color"
   },
   "$lavender8": {
-    "value": "#331E3D",
+    "value": "hsl(281, 34%, 18%)",
     "type": "color"
   },
   "$pink1": {
-    "value": "#FFF8FB",
+    "value": "hsl(334, 100%, 99%)",
     "type": "color"
   },
   "$pink2": {
-    "value": "#FECBE4",
+    "value": "hsl(331, 96%, 90%)",
     "type": "color"
   },
   "$pink3": {
-    "value": "#FC82BC",
+    "value": "hsl(331, 95%, 75%)",
     "type": "color"
   },
   "$pink4": {
-    "value": "#FC64AD",
+    "value": "hsl(331, 96%, 69%)",
     "type": "color"
   },
   "$pink5": {
-    "value": "#FB479D",
+    "value": "hsl(331, 96%, 63%)",
     "type": "color"
   },
   "$pink6": {
-    "value": "#D33C84",
+    "value": "hsl(331, 63%, 53%)",
     "type": "color"
   },
   "$pink7": {
-    "value": "#972B5E",
+    "value": "hsl(332, 56%, 38%)",
     "type": "color"
   },
   "$pink8": {
-    "value": "#5A1A39",
+    "value": "hsl(331, 55%, 23%)",
     "type": "color"
   },
   "$red1": {
-    "value": "#FFF7F7",
+    "value": "hsl(0, 100%, 98%)",
     "type": "color"
   },
   "$red2": {
-    "value": "#FCC6C5",
+    "value": "hsl(1, 90%, 88%)",
     "type": "color"
   },
   "$red3": {
-    "value": "#F77472",
+    "value": "hsl(1, 89%, 71%)",
     "type": "color"
   },
   "$red4": {
-    "value": "#F55451",
+    "value": "hsl(1, 89%, 64%)",
     "type": "color"
   },
   "$red5": {
-    "value": "#F33330",
+    "value": "hsl(1, 89%, 57%)",
     "type": "color"
   },
   "$red6": {
-    "value": "#CC2B28",
+    "value": "hsl(1, 67%, 48%)",
     "type": "color"
   },
   "$red7": {
-    "value": "#921F1D",
+    "value": "hsl(1, 67%, 34%)",
     "type": "color"
   },
   "$red8": {
-    "value": "#571211",
+    "value": "hsl(1, 67%, 20%)",
     "type": "color"
   },
   "$silver1": {
-    "value": "#FFFFFF",
+    "value": "hsl(0, 0%, 100%)",
     "type": "color"
   },
   "$silver2": {
-    "value": "#F8F7F6",
+    "value": "hsl(30, 12%, 97%)",
     "type": "color"
   },
   "$silver3": {
-    "value": "#E7E5E0",
+    "value": "hsl(43, 13%, 89%)",
     "type": "color"
   },
   "$silver4": {
-    "value": "#DBD9D2",
+    "value": "hsl(47, 11%, 84%)",
     "type": "color"
   },
   "$silver5": {
-    "value": "#C1BFB9",
+    "value": "hsl(45, 6%, 74%)",
     "type": "color"
   },
   "$silver6": {
-    "value": "#72716D",
+    "value": "hsl(48, 2%, 44%)",
     "type": "color"
   },
   "$silver7": {
-    "value": "#2C2B2A",
+    "value": "hsl(30, 2%, 17%)",
     "type": "color"
   },
   "$silver8": {
-    "value": "#100F0F",
+    "value": "hsl(0, 3%, 6%)",
     "type": "color"
   },
   "$teal1": {
-    "value": "#F6FBF7",
+    "value": "hsl(132, 38%, 97%)",
     "type": "color"
   },
   "$teal2": {
-    "value": "#BBE4E2",
+    "value": "hsl(177, 43%, 81%)",
     "type": "color"
   },
   "$teal3": {
-    "value": "#59BCB8",
+    "value": "hsl(178, 42%, 54%)",
     "type": "color"
   },
   "$teal4": {
-    "value": "#32ADA7",
+    "value": "hsl(177, 55%, 44%)",
     "type": "color"
   },
   "$teal5": {
-    "value": "#0B9D96",
+    "value": "hsl(177, 87%, 33%)",
     "type": "color"
   },
   "$teal6": {
-    "value": "#09847E",
+    "value": "hsl(177, 87%, 28%)",
     "type": "color"
   },
   "$teal7": {
-    "value": "#075E5A",
+    "value": "hsl(177, 86%, 20%)",
     "type": "color"
   },
   "$teal8": {
-    "value": "#043936",
+    "value": "hsl(177, 87%, 12%)",
     "type": "color"
   },
   "$yellow1": {
-    "value": "#FFFDF5",
+    "value": "hsl(48, 100%, 98%)",
     "type": "color"
   },
   "$yellow2": {
-    "value": "#FCF2BC",
+    "value": "hsl(51, 91%, 86%)",
     "type": "color"
   },
   "$yellow3": {
-    "value": "#F8DE5D",
+    "value": "hsl(50, 92%, 67%)",
     "type": "color"
   },
   "$yellow4": {
-    "value": "#F7D737",
+    "value": "hsl(50, 92%, 59%)",
     "type": "color"
   },
   "$yellow5": {
-    "value": "#F5CF11",
+    "value": "hsl(50, 92%, 51%)",
     "type": "color"
   },
   "$yellow6": {
-    "value": "#CEAE0E",
+    "value": "hsl(50, 87%, 43%)",
     "type": "color"
   },
   "$yellow7": {
-    "value": "#937C0A",
+    "value": "hsl(50, 87%, 31%)",
     "type": "color"
   },
   "$yellow8": {
-    "value": "#584B06",
+    "value": "hsl(50, 87%, 18%)",
     "type": "color"
   }
 }
