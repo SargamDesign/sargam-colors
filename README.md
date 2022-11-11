@@ -26,19 +26,13 @@ Use the CDN files
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@1.2.2/dist/themes/dark.min.css" />
 ```
 
-## Usage
+## Usage (Example)
 
 ```
-.button {
-  background-color: var(--button-primary);
-  color: var(--text-on-color);
-}
-.button:hover {
-  background-color: var(--button-primary-hover);
-}
-.button:active {
-  background-color: var(--button-primary-active);
-}
+.button { background-color: var(--button-primary);
+          color: var(--text-on-color); }
+.button:hover { background-color: var(--button-primary-hover); }
+.button:active { background-color: var(--button-primary-active); }
 ```
 
 ## Decision Variables
