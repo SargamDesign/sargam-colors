@@ -3,7 +3,7 @@
 # Sargam Colors
 A simple scalable color system for designing warm welcoming, caring websites and apps.
 
-Sargam colors are the language of the beauty, the warmth, and the caress, that comes from the heart of the world. The most direct expression of beauty, with a form and spirit which is one and simple, and least encumbered with anything extraneous. A color system of emancipation which makes it easy to recognize the beauty in small things. True makers, they who are seers, seek to express the universe with sargam colors.
+[[sargamcolors.com]](https://www.sargamcolors.com/) 
 
 ## Installation
 Install Sargam Colors from your terminal via npm.
@@ -18,7 +18,6 @@ Import vanilla CSS
 import "@sargamdesign/colors/dist/themes/light.css";
 import "@sargamdesign/colors/dist/themes/dark.css";
 ```
-
 
 Use the CDN files
 
@@ -207,7 +206,7 @@ Variable | Value | Color
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
 
-## Structure
+## Understanding Project Structure
 Below is the file structure of a Sargam colors project:
 
 ```
@@ -239,9 +238,8 @@ Below is the file structure of a Sargam colors project:
 
 ## Future, To do's
 - hsl & hex conversion options
-- iOS, Android, SCSS, JS exports
-- customizing tokens, variable functions
-- JavaScript objects
+- iOS, Android, SCSS, JavaScript objects exports
+- modifying CSS variables using SASS functions, scale and rules
 - usage and themeing guidelines for various styling solutions
 - global silver/grey sequential scales
   
@@ -257,9 +255,7 @@ Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌
 
 ---
 
-
 ### Other Links
 - Sargam Icons [[sargamicons.com]](https://www.sargamicons.com/) 
-- Sargam Colors [[sargamcolors.com]](https://www.sargamcolors.com/) 
 - Sargam Design [[sargam.design]](https://sargam.design/) 
-- New updates [[@SargamDesign]](https://twitter.com/SargamDesign)
+- For New updates [[@SargamDesign]](https://twitter.com/SargamDesign)
