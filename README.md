@@ -262,7 +262,5 @@ Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌
 
 ---
 
-### Other Cool Links
-- Sargam Icons [[sargamicons.com]](https://www.sargamicons.com/) 
-- Sargam Design [[sargam.design]](https://sargam.design/) 
-- Follow on Twitter(Next Titanic?) for New updates [[@SargamDesign]](https://twitter.com/SargamDesign)
+### For New Updates
+- Follow on Twitter(Sinking ship?) [[@SargamDesign]](https://twitter.com/SargamDesign)
