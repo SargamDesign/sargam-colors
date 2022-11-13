@@ -19,7 +19,7 @@ import "@sargamdesign/colors/dist/themes/light.css";
 import "@sargamdesign/colors/dist/themes/dark.css";
 ```
 
-To get started quickly, you can use the CDN files. However, using the CDN approach is not recommended for production work. It's intended for prototyping only.
+To get started quickly, you can use the CDN files.
 
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.0.0/dist/themes/light.min.css" />
@@ -29,7 +29,7 @@ To get started quickly, you can use the CDN files. However, using the CDN approa
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.0.0/dist/themes/dark.min.css" />
 ```
 
-## Usage (Example)
+## Usage Example
 
 ```
 .button { background-color: var(--button-primary);
@@ -37,6 +37,43 @@ To get started quickly, you can use the CDN files. However, using the CDN approa
 .button:hover { background-color: var(--button-primary-hover); }
 .button:active { background-color: var(--button-primary-active); }
 ```
+
+## Understanding Project Structure
+Below is the file structure of a Sargam colors project:
+
+```
+.
+├── tokens/
+│   ├── global/
+│   │   └── global.json
+│   └── themes/
+│       ├── dark/
+│       │   └── dark.json
+│       └── light/
+│           └── light.json
+└── dist/
+    └── themes/
+        ├── light.css
+        └── dark.css
+```
+
+Folder `tokens/` is a single source of truth (SSOT), stored in the GitHub repo, and synced with Figma colors styles. Sargam colors use the tech-agnostic JSON format as SSOT. To generate various web or app-specific requirements [Style Dictionary](https://github.com/amzn/style-dictionary) (Dev dependency) will be used.
+
+To modify colors values or to add new sequential scales go to `tokens/global/`. To modify current theme or to add a new theme go to `tokens/themes/`. To modify generated CSS variables use SASS functions and mixins.
+
+
+## Building Themes
+
+### Light
+- Build theme: `npm run build:tokens -- --theme=light`
+- [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
+
+### Dark 
+- Build theme: `npm run build:tokens -- --theme=dark`
+- [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
+
+Get a Figma copy for Sargam colors [light](https://www.figma.com/community/file/1161992682973418812) and [dark](https://www.figma.com/community/file/1165657423688212577) themes.
+
 
 ## Decision Variables
 
@@ -117,7 +154,6 @@ Variable | Value(Light) | Value(Dark)| Role
 
 
 ## Choice Tokens
-To get started quickly, you can use the choice variables directly. Plus, you can also define new decision variables above using these choices.
 
 ### Red
 Variable | Value | Color
@@ -203,43 +239,16 @@ Variable | Value | Color
 `$silver7` | hsl(30, 2%, 17%) | ![#2C2B2A](https://via.placeholder.com/16/2C2B2A/2C2B2A.png)
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
-
-## Understanding Project Structure
-Below is the file structure of a Sargam colors project:
-
-```
-.
-├── tokens/
-│   ├── global/
-│   │   └── global.json
-│   └── themes/
-│       ├── dark/
-│       │   └── dark.json
-│       └── light/
-│           └── light.json
-└── dist/
-    └── themes/
-        ├── light.css
-        └── dark.css
-```
-
-## Building Themes
-
-### Light
-- Build theme: `npm run build:tokens -- --theme=light`
-- [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
-
-### Dark 
-- Build theme: `npm run build:tokens -- --theme=dark`
-- [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
-
-
 ## Future, To do's
 - hsl & hex conversion options
 - iOS, Android, SCSS, JavaScript objects exports
 - modifying CSS variables using SASS functions, scale and rules
 - usage and themeing guidelines for various styling solutions
 - global silver/grey sequential scales
+
+## Built Using Sargam Colors
+- [Sargam Icons](https://sargamicons.com/) — A Collection of 262+ Open-source Icons
+- [Your Vedas](https://yourvedas.com/) — Sacred Books of the East
   
 
 ## License
@@ -256,4 +265,4 @@ Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌
 ### Other Cool Links
 - Sargam Icons [[sargamicons.com]](https://www.sargamicons.com/) 
 - Sargam Design [[sargam.design]](https://sargam.design/) 
-- For New updates [[@SargamDesign]](https://twitter.com/SargamDesign)
+- Follow on Twitter(Next Titanic?) for New updates [[@SargamDesign]](https://twitter.com/SargamDesign)
