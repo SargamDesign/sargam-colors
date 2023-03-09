@@ -3,7 +3,7 @@
 # Sargam Colors
 A simple scalable color system for designing warm welcoming, caring websites and apps.
 
-[[sargamcolors.com]](https://www.sargamcolors.com/) 
+[[sargamcolors.com]](https://sargamcolors.com/) 
 
 ## Installation
 Install Sargam Colors from your terminal via npm. Current version is 2.0.0
@@ -66,13 +66,11 @@ To modify colors values or to add new sequential scales go to `tokens/global/`. 
 
 ### Light
 - Build theme: `npm run build:tokens -- --theme=light`
-- [Get a Figma copy for light theme](https://www.figma.com/community/file/1161992682973418812)
 
 ### Dark 
 - Build theme: `npm run build:tokens -- --theme=dark`
-- [Get a Figma copy for dark theme](https://www.figma.com/community/file/1165657423688212577)
 
-Get a Figma copy for Sargam colors [light](https://www.figma.com/community/file/1161992682973418812) and [dark](https://www.figma.com/community/file/1165657423688212577) themes.
+Get a Figma copy for Sargam colors [light](https://www.figma.com/community/file/1161992682973418812) theme.
 
 
 ## Decision Variables
@@ -239,7 +237,7 @@ Variable | Value | Color
 `$silver7` | hsl(30, 2%, 17%) | ![#2C2B2A](https://via.placeholder.com/16/2C2B2A/2C2B2A.png)
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
-## Future, To do's
+## Roadmap, Later
 - hsl & hex conversion options
 - iOS, Android, SCSS, JavaScript objects exports
 - modifying CSS variables using SASS functions, scale and rules
