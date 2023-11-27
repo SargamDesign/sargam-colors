@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 11 Nov 2022 18:26:36 GMT
+ * Generated on Mon, 27 Nov 2023 17:17:22 GMT
  */
 
 :root {
@@ -60,47 +60,47 @@
   --green3: hsl(139, 45%, 57%);
   --green2: hsl(139, 45%, 82%);
   --green1: hsl(132, 38%, 97%);
-  --text-success: var(--green4);
-  --text-error: var(--red4);
-  --text-on-color: var(--silver1);
-  --text-placeholder: var(--silver5);
-  --text-secondary: var(--silver6);
-  --text-primary-alt: var(--silver4);
-  --text-primary: var(--silver1);
-  --support-info: var(--teal4);
-  --support-success: var(--green4);
-  --support-warning: var(--yellow4);
-  --support-error: var(--red4);
-  --link-muted: var(--silver1);
-  --link-visited: var(--lavender4);
-  --link-subtle: var(--teal5);
-  --link-hover: var(--teal6);
-  --link: var(--teal4);
-  --icon-on-color: var(--silver8);
-  --icon-disabled: var(--silver6);
-  --icon-secondary: var(--silver5);
-  --icon-primary: var(--silver3);
-  --button-disabled-alt: var(--silver7);
-  --button-disabled: var(--silver6);
-  --button-danger-active: var(--red2);
-  --button-danger-hover: var(--red3);
-  --button-danger: var(--red4);
-  --button-secondary-active: var(--silver7);
-  --button-secondary-hover: var(--silver7);
-  --button-secondary: var(--silver6);
-  --button-primary-active: var(--teal2);
-  --button-primary-hover: var(--teal3);
-  --button-primary: var(--teal4);
-  --border-strong: var(--silver5);
-  --border-default: var(--silver6);
-  --border-muted: var(--silver7);
-  --background-pink: var(--pink8);
-  --background-lavender: var(--lavender8);
-  --background-teal: var(--teal8);
-  --background-green: var(--green8);
-  --background-yellow: var(--yellow8);
-  --background-red: var(--red8);
-  --background-selected: var(--silver6);
-  --background-subtle: var(--silver7);
-  --background: var(--silver8);
+  --text-success: {$green4};
+  --text-error: {$red4};
+  --text-on-color: {$silver1};
+  --text-placeholder: {$silver5};
+  --text-secondary: {$silver6};
+  --text-primary-alt: {$silver4};
+  --text-primary: {$silver1};
+  --support-info: {$teal4};
+  --support-success: {$green4};
+  --support-warning: {$yellow4};
+  --support-error: {$red4};
+  --link-muted: {$silver1};
+  --link-visited: {$lavender4};
+  --link-subtle: {$teal5};
+  --link-hover: {$teal6};
+  --link: {$teal4};
+  --icon-on-color: {$silver8};
+  --icon-disabled: {$silver6};
+  --icon-secondary: {$silver5};
+  --icon-primary: {$silver3};
+  --button-disabled-alt: {$silver7};
+  --button-disabled: {$silver6};
+  --button-danger-active: {$red2};
+  --button-danger-hover: {$red3};
+  --button-danger: {$red4};
+  --button-secondary-active: {$silver7};
+  --button-secondary-hover: {$silver7};
+  --button-secondary: {$silver6};
+  --button-primary-active: {$teal2};
+  --button-primary-hover: {$teal3};
+  --button-primary: {$teal4};
+  --border-strong: {$silver5};
+  --border-default: {$silver6};
+  --border-muted: {$silver7};
+  --background-pink: {$pink8};
+  --background-lavender: {$lavender8};
+  --background-teal: {$teal8};
+  --background-green: {$green8};
+  --background-yellow: {$yellow8};
+  --background-red: {$red8};
+  --background-selected: {$silver6};
+  --background-subtle: {$silver7};
+  --background: {$silver8};
 }

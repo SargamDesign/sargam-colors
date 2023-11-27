@@ -1,10 +1,14 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A simple scalable color system for designing warm welcoming, caring websites and apps.",
   "main": "index.js",
   "scripts": {
-    "build:tokens": "node ./build-tokens.js"
+    "clean": "rimraf dist",
+    "build:tokens": "node ./build-tokens.js",
+    "build:light": "npm run build:tokens -- --theme=light",
+    "build:dark": "npm run build:tokens -- --theme=dark",
+    "build": "npm-run-all build:light build:dark"
   },
   "repository": {
     "type": "git",
@@ -27,6 +31,9 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam-colors#readme",
   "devDependencies": {
-    "style-dictionary": "^3.7.1"
+    "minimist": "^1.2.8",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.5",
+    "style-dictionary": "^3.9.0"
   }
 }

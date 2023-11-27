@@ -6,7 +6,7 @@ A simple scalable color system for designing warm welcoming, caring websites and
 [[sargamcolors.com]](https://sargamcolors.com/) 
 
 ## Installation
-Install Sargam Colors from your terminal via npm. Current version is 2.0.0
+Install Sargam Colors from your terminal via npm. Current version is 2.1.0
 
 ```
 npm i @sargamdesign/colors
@@ -22,11 +22,11 @@ import "@sargamdesign/colors/dist/themes/dark.css";
 To get started quickly, you can use the CDN files.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.0.0/dist/themes/light.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.0/dist/themes/light.min.css" />
 ```
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.0.0/dist/themes/dark.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.0/dist/themes/dark.min.css" />
 ```
 
 ## Usage Example
@@ -39,7 +39,7 @@ To get started quickly, you can use the CDN files.
 ```
 
 ## Understanding Project Structure
-Below is the file structure of a Sargam colors project:
+Here's the file structure of a Sargam colors:
 
 ```
 .
@@ -57,20 +57,16 @@ Below is the file structure of a Sargam colors project:
         └── dark.css
 ```
 
-Folder `tokens/` is a single source of truth (SSOT), stored in the GitHub repo, and synced with Figma colors styles. Sargam colors use the tech-agnostic JSON format as SSOT. To generate various web or app-specific requirements [Style Dictionary](https://github.com/amzn/style-dictionary) (Dev dependency) will be used.
+`tokens/` folder serves as the single source of truth (SSOT), residing within the GitHub repository and synchronized with Figma's color styles or variables. (To maintain a tech-agnostic approach, Sargam Colors employs the JSON format for the SSOT.)
 
-To modify colors values or to add new sequential scales go to `tokens/global/`. To modify current theme or to add a new theme go to `tokens/themes/`. To modify generated CSS variables use SASS functions and mixins.
+For generating various web or app-specific requirements, [Style Dictionary](https://github.com/amzn/style-dictionary) will be utilized.
+
+To modify colors values or to add new sequential scales, go to `tokens/global/`. If you want to modify the current theme or create a new one, head to the `tokens/themes/`. For modifying generated CSS variables, leverage SASS functions and mixins.
 
 
 ## Building Themes
-
-### Light
-- Build theme: `npm run build:tokens -- --theme=light`
-
-### Dark 
-- Build theme: `npm run build:tokens -- --theme=dark`
-
-Get a Figma copy for Sargam colors [light](https://www.figma.com/community/file/1161992682973418812) theme.
+- Install: `npm i`
+- Build: `npm run build`
 
 
 ## Decision Variables
@@ -237,28 +233,16 @@ Variable | Value | Color
 `$silver7` | hsl(30, 2%, 17%) | ![#2C2B2A](https://via.placeholder.com/16/2C2B2A/2C2B2A.png)
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
-## Roadmap, Later
-- hsl & hex conversion options
-- iOS, Android, SCSS, JavaScript objects exports
-- modifying CSS variables using SASS functions, scale and rules
-- usage and themeing guidelines for various styling solutions
-- global silver/grey sequential scales
-
-## Built Using Sargam Colors
-- [Sargam Icons](https://sargamicons.com/) — A Collection of 262+ Open-source Icons
-- [Your Vedas](https://yourvedas.com/) — Sacred Books of the East
-  
+## Websites and apps crafted with Sargam Colors:
+- [Sargam Icons](https://sargamicons.com/)
+- [Sargam Design](https://sargam.design/)
+- [Your Vedas](https://yourvedas.com/)
+- [Andlo](https://www.andlopayroll.com/)
 
 ## License
-MIT License, Copyright (c) 2022 Abhimanyu Rana.
+MIT License, Copyright (c) 2023 Abhimanyu Rana.
 Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌 
 
 
 [![npm version](https://badge.fury.io/js/@sargamdesign%2Fcolors.svg)](https://badge.fury.io/js/@sargamdesign%2Fcolors) 
 [![](https://data.jsdelivr.com/v1/package/npm/@sargamdesign/colors/badge)](https://www.jsdelivr.com/package/npm/@sargamdesign/colors)
-
-
----
-
-### For New Updates
-- Follow on Twitter(Sinking ship?) [[@SargamDesign]](https://twitter.com/SargamDesign)
