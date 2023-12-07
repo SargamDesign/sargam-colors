@@ -147,7 +147,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--background-pink` | *--pink1* | *--pink8* | Subtle pink background
 
 
-## Choice Tokens
+## Choice Tokens [Don't Use]
 
 ### Red
 Variable | Value | Color
