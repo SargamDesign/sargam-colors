@@ -29,7 +29,7 @@ To get started quickly, you can use the CDN files.
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.1/dist/themes/dark.css" />
 ```
 
-[[Figma variabls & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors)
+[[Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors)
 
 ## Usage Example
 
