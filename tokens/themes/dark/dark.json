@@ -68,7 +68,7 @@
       "type": "color"
     },
     "$button-secondary-active": {
-      "value": "{$silver7}",
+      "value": "{$silver8}",
       "type": "color"
     },
     "$button-danger": {
@@ -148,15 +148,15 @@
       "type": "color"
     },
     "$text-primary-alt": {
-      "value": "{$silver4}",
+      "value": "{$silver3}",
       "type": "color"
     },
     "$text-secondary": {
-      "value": "{$silver6}",
+      "value": "{$silver5}",
       "type": "color"
     },
     "$text-placeholder": {
-      "value": "{$silver5}",
+      "value": "{$silver6}",
       "type": "color"
     },
     "$text-on-color": {

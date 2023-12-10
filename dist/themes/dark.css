@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Nov 2023 17:17:22 GMT
+ * Generated on Sun, 10 Dec 2023 14:11:13 GMT
  */
 
 :root {
@@ -63,9 +63,9 @@
   --text-success: {$green4};
   --text-error: {$red4};
   --text-on-color: {$silver1};
-  --text-placeholder: {$silver5};
-  --text-secondary: {$silver6};
-  --text-primary-alt: {$silver4};
+  --text-placeholder: {$silver6};
+  --text-secondary: {$silver5};
+  --text-primary-alt: {$silver3};
   --text-primary: {$silver1};
   --support-info: {$teal4};
   --support-success: {$green4};
@@ -85,7 +85,7 @@
   --button-danger-active: {$red2};
   --button-danger-hover: {$red3};
   --button-danger: {$red4};
-  --button-secondary-active: {$silver7};
+  --button-secondary-active: {$silver8};
   --button-secondary-hover: {$silver7};
   --button-secondary: {$silver6};
   --button-primary-active: {$teal2};

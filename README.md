@@ -6,7 +6,7 @@ A simple scalable color system for designing warm welcoming, caring websites and
 [[sargamcolors.com]](https://sargamcolors.com/) 
 
 ## Installation
-Install Sargam Colors from your terminal via npm. Current version is 2.1.0
+Install Sargam Colors from your terminal via npm. Current version is 2.1.1
 
 ```
 npm i @sargamdesign/colors
@@ -22,12 +22,14 @@ import "@sargamdesign/colors/dist/themes/dark.css";
 To get started quickly, you can use the CDN files.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.0/dist/themes/light.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.1/dist/themes/light.css" />
 ```
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.0/dist/themes/dark.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.1/dist/themes/dark.css" />
 ```
+
+[[Figma variabls & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors)
 
 ## Usage Example
 
@@ -65,24 +67,29 @@ To modify colors values or to add new sequential scales, go to `tokens/global/`.
 
 
 ## Building Themes
-- Install: `npm i`
-- Build: `npm run build`
+```
+git clone https://github.com/SargamDesign/sargam-colors.git
+cd sargam-colors
+npm i
+npm run build
+```
 
+---
 
-## Decision Variables
+## Color Tokens
 
-### Text tokens
+### Text
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--text-primary` | *--silver8* | *--silver1* | Body copy
-`--text-primary-alt` | *--silver7* | *--silver4* | Body copy alt
-`--text-secondary` | *--silver6* | *--silver6* | Secondary text color
-`--text-placeholder` | *--silver5* | *--silver5* | Placeholder text
+`--text-primary-alt` | *--silver7* | *--silver3* | Body copy alt
+`--text-secondary` | *--silver6* | *--silver5* | Secondary text color
+`--text-placeholder` | *--silver5* | *--silver6* | Placeholder text
 `--text-on-color` | *--silver1* | *--silver1* | Text on interactive colors
 `--text-error` | *--red6* | *--red4* | Error message text
 `--text-success` | *--green6* | *--green4* | Success message text
 
-### Support tokens
+### Support
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--support-error` | *--red5* | *--red4* | Error
@@ -91,7 +98,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--support-info` | *--teal5* | *--teal4* | Information
 
 
-### Link tokens
+### Link
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--link` | *--teal6* | *--teal4* | Primary links
@@ -101,7 +108,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--link-muted` | *--silver8* | *--silver1* | Link muted
 
 
-### Icon tokens
+### Icon
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--icon-primary` | *--silver7* | *--silver3* | Primary icons
@@ -109,7 +116,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--icon-disabled` | *--silver5* | *--silver6* | Disabled state for icons
 `--icon-on-color` | *--silver1* | *--silver8* | Icons on interactive colors
 
-### Button tokens
+### Button
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--button-primary` | *--teal5* | *--teal4* | Primary button background
@@ -117,15 +124,15 @@ Variable | Value(Light) | Value(Dark)| Role
 `--button-primary-active` | *--teal7* | *--teal2* | Primary button active
 `--button-secondary` | *--silver8* | *--silver6* | Secondary button background
 `--button-secondary-hover` | *--silver7* | *--silver7* | Secondary button hover
-`--button-secondary-active` | *--silver6* | *--silver7* | Secondary button active
-`--button-danger` | *--red5* | *--red3* | Danger button background
-`--button-danger-hover` | *--red6* | *--red2* | Danger button hover
-`--button-danger-active` | *--red7* | *--* | Danger button active
+`--button-secondary-active` | *--silver6* | *--silver8* | Secondary button active
+`--button-danger` | *--red5* | *--red4* | Danger button background
+`--button-danger-hover` | *--red6* | *--red3* | Danger button hover
+`--button-danger-active` | *--red7* | *--red2* | Danger button active
 `--button-disabled` | *--silver5* | *--silver6* | Disabled button
 `--button-disabled-alt` | *--silver4* | *--silver7* | Disabled button alt
 
 
-### Border tokens
+### Border
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--border-muted` | *--silver3* | *--silver7* | Muted borders and separators
@@ -133,7 +140,7 @@ Variable | Value(Light) | Value(Dark)| Role
 `--border-strong` | *--silver6* | *--silver5* | Strong borders and separators
 
 
-### Background tokens
+### Background
 Variable | Value(Light) | Value(Dark)| Role
 :--- |:--- |:--- |:---
 `--background` | *--silver1* | *--silver8* | Default app background
@@ -146,8 +153,9 @@ Variable | Value(Light) | Value(Dark)| Role
 `--background-lavender` | *--lavender1* | *--lavender8* | Subtle lavender background
 `--background-pink` | *--pink1* | *--pink8* | Subtle pink background
 
+---
 
-## Choice Tokens [Don't Use]
+## Primitives
 
 ### Red
 Variable | Value | Color
