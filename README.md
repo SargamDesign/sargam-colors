@@ -3,7 +3,7 @@
 # Sargam Colors
 A simple scalable color system for designing warm welcoming, caring sites and apps.
 
-[[Get Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors)
+[[Get Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors) <br />
 [[Install VS Code theme]](https://marketplace.visualstudio.com/items?itemName=sargam.sargam) 
 
 ## Installation
