@@ -241,11 +241,11 @@ Variable | Value | Color
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
 ## Websites and apps crafted with Sargam Colors:
-- [Sargam Colors](https://sargamcolors.com/)
-- [Sargam Icons](https://sargamicons.com/)
-- [Sargam Design](https://sargam.design/)
-- [Your Vedas](https://yourvedas.com/)
-- [Andlo](https://www.andlopayroll.com/)
+- [sargam.design](https://sargam.design/)
+- [sargamcolors.com](https://sargamcolors.com/)
+- [sargamicons.com](https://sargamicons.com/)
+- [yourvedas.com](https://yourvedas.com/)
+- [andlopayroll.com](https://www.andlopayroll.com/)
 
 ## License
 MIT License, Copyright (c) 2023 Abhimanyu Rana.
