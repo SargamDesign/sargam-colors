@@ -1,9 +1,10 @@
 ![](help/cover.png)
 
 # Sargam Colors
-A simple scalable color system for designing warm welcoming, caring websites and apps.
+A simple scalable color system for designing warm welcoming, caring sites and apps.
 
-[[sargamcolors.com]](https://sargamcolors.com/) 
+[[Get Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors)
+[[Install VS Code theme]](https://marketplace.visualstudio.com/items?itemName=sargam.sargam) 
 
 ## Installation
 Install Sargam Colors from your terminal via npm. Current version is 2.1.1
@@ -28,8 +29,6 @@ To get started quickly, you can use the CDN files.
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.1/dist/themes/dark.css" />
 ```
-
-[[Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors)
 
 ## Usage Example
 
@@ -242,6 +241,7 @@ Variable | Value | Color
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
 ## Websites and apps crafted with Sargam Colors:
+- [Sargam Colors](https://sargamcolors.com/)
 - [Sargam Icons](https://sargamicons.com/)
 - [Sargam Design](https://sargam.design/)
 - [Your Vedas](https://yourvedas.com/)
