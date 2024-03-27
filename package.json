@@ -1,7 +1,7 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "2.1.1",
-  "description": "A simple scalable color system for designing warm welcoming, caring websites and apps.",
+  "version": "2.1.2",
+  "description": "Color system for designing warm welcoming, caring sites & apps",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -24,7 +24,7 @@
     "design-system",
     "color-system"
   ],
-  "author": "Abhimanyu Rana",
+  "author": "@planetabhi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SargamDesign/sargam-colors/issues"
@@ -34,6 +34,6 @@
     "minimist": "^1.2.8",
     "npm-run-all": "^4.1.5",
     "rimraf": "^5.0.5",
-    "style-dictionary": "^3.9.1"
+    "style-dictionary": "^3.9.2"
   }
 }

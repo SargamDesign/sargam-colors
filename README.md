@@ -1,13 +1,13 @@
 ![](help/cover.png)
 
 # Sargam Colors
-A simple scalable color system for designing warm welcoming, caring sites and apps.
+Color system for designing warm welcoming, caring sites & apps.
 
 [[Get Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors) <br />
 [[Install VS Code theme]](https://marketplace.visualstudio.com/items?itemName=sargam.sargam) 
 
 ## Installation
-Install Sargam Colors from your terminal via npm. Current version is 2.1.1
+Install Sargam Colors from your terminal via npm. Current version is 2.1.2
 
 ```
 npm i @sargamdesign/colors
@@ -58,9 +58,9 @@ Here's the file structure of a Sargam colors:
         └── dark.css
 ```
 
-`tokens/` folder serves as the single source of truth (SSOT), residing within the GitHub repository and synchronized with Figma's color styles or variables. (To maintain a tech-agnostic approach, Sargam Colors employs the JSON format for the SSOT.)
+`tokens/` serves as the single source of truth, residing within the repository and synchronized with Figma's variables.
 
-For generating various web or app-specific requirements, [Style Dictionary](https://github.com/amzn/style-dictionary) will be utilized.
+For generating various web or app-specific requirements, [Style Dictionary](https://github.com/amzn/style-dictionary) is utilized.
 
 To modify colors values or to add new sequential scales, go to `tokens/global/`. If you want to modify the current theme or create a new one, head to the `tokens/themes/`. For modifying generated CSS variables, leverage SASS functions and mixins.
 
@@ -248,8 +248,8 @@ Variable | Value | Color
 - [andlopayroll.com](https://www.andlopayroll.com/)
 
 ## License
-MIT License, Copyright (c) 2023 Abhimanyu Rana.
-Brought to you by [@planetabhi](https://twitter.com/planetabhi) 🙌 
+MIT License, Copyright (c) 2024 Method Black.
+Brought to you by [@planetabhi](https://planetabhi.com/) 🙌 
 
 
 [![npm version](https://badge.fury.io/js/@sargamdesign%2Fcolors.svg)](https://badge.fury.io/js/@sargamdesign%2Fcolors) 
