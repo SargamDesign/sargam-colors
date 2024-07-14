@@ -20,11 +20,11 @@ import "@sargamdesign/colors/dist/themes/dark.css";
 To get started quickly, you can use the CDN files.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.1/dist/themes/light.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.2/dist/themes/light.css" />
 ```
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.1/dist/themes/dark.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@2.1.2/dist/themes/dark.css" />
 ```
 
 ## Usage Example
