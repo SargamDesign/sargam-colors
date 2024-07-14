@@ -3,9 +3,6 @@
 # Sargam Colors
 Color system for designing warm welcoming, caring sites & apps.
 
-[[Get Figma variables & styles]](https://www.figma.com/community/file/1315655575821378223/sargam-colors) <br />
-[[Install VS Code theme]](https://marketplace.visualstudio.com/items?itemName=sargam.sargam) 
-
 ## Installation
 Install Sargam Colors from your terminal via npm. Current version is 2.1.2
 
@@ -240,12 +237,12 @@ Variable | Value | Color
 `$silver7` | hsl(30, 2%, 17%) | ![#2C2B2A](https://via.placeholder.com/16/2C2B2A/2C2B2A.png)
 `$silver8` | hsl(0, 3%, 6%) | ![#100F0F](https://via.placeholder.com/16/100F0F/100F0F.png)
 
-## Websites and apps crafted with Sargam Colors:
-- [sargam.design](https://sargam.design/)
+## Built with Sargam Colors:
 - [sargamcolors.com](https://sargamcolors.com/)
 - [sargamicons.com](https://sargamicons.com/)
 - [yourvedas.com](https://yourvedas.com/)
 - [andlopayroll.com](https://www.andlopayroll.com/)
+- [[Sargam VS Code theme]](https://marketplace.visualstudio.com/items?itemName=sargam.sargam) 
 
 ## License
 MIT License, Copyright (c) 2024 Method Black.
