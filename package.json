@@ -1,11 +1,11 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "2.1.2",
-  "description": "Color system for designing warm welcoming, caring sites & apps",
+  "version": "2.1.3",
+  "description": "Colors for designing warm welcoming, caring sites & apps.",
   "main": "index.js",
+  
   "scripts": {
-    "clean": "rimraf dist",
-    "build:tokens": "node ./build-tokens.js",
+    "build:tokens": "node ./build.js",
     "build:light": "npm run build:tokens -- --theme=light",
     "build:dark": "npm run build:tokens -- --theme=dark",
     "build": "npm-run-all build:light build:dark"
@@ -18,10 +18,6 @@
     "colors",
     "color-palette",
     "themes",
-    "tokens",
-    "tokens-translation",
-    "design-tokens",
-    "design-system",
     "color-system"
   ],
   "author": "@planetabhi",
@@ -33,7 +29,6 @@
   "devDependencies": {
     "minimist": "^1.2.8",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^6.0.1",
-    "style-dictionary": "^3.9.2"
+    "style-dictionary": "^3.7.1"
   }
 }
