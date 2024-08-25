@@ -18,7 +18,7 @@ npm i @sargamdesign/colors -D
 ```
 
 ```html
-<!-- Add this attribute to html wrapper -->
+<!-- Add this attribute to the HTML wrapper -->
 <html color-scheme="light">
 ```
 
