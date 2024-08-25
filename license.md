@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 Method Black
+Copyright (c) 2024 Method Black Studio
 Copyright (c) 2024 Abhimanyu Rana
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

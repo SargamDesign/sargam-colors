@@ -4,34 +4,32 @@
 Colors for designing warm welcoming, caring sites & apps.
 
 ## Installation
-Install Sargam Colors from your terminal via npm.
+Install from your terminal via npm.
 
 ```
 npm i @sargamdesign/colors -D
 ```
 
-Import vanilla CSS
+## Usage
 
-```
-import "@sargamdesign/colors/dist/themes/light.css";
-import "@sargamdesign/colors/dist/themes/dark.css";
-```
-
-To get started quickly, you can use the CDN files.
-
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@latest/dist/themes/light.css" />
+```scss
+// Place this at the top of your SCSS/CSS file
+@import "@sargamdesign/colors";
 ```
 
+```html
+<!-- Add this attribute to html wrapper -->
+<html data-sargam-theme="light">
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sargamdesign/colors@latest/dist/themes/dark.css" />
-```
+
+### Available themes
+- light
+- dark
 
 ## Usage Example
 
 ```
-.button { background-color: var(--button-primary);
-          color: var(--text-on-color); }
+.button { background-color: var(--button-primary); color: var(--text-on-color); }
 .button:hover { background-color: var(--button-primary-hover); }
 .button:active { background-color: var(--button-primary-active); }
 ```

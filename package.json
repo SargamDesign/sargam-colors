@@ -1,14 +1,15 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "2.1.3",
+  "version": "3.0.0",
   "description": "Colors for designing warm welcoming, caring sites & apps.",
-  "main": "index.js",
-  
+  "source": "src/index.scss",
+  "main": "dist/index.css",
+  "targets": {
+    "main": false
+  },
   "scripts": {
-    "build:tokens": "node ./build.js",
-    "build:light": "npm run build:tokens -- --theme=light",
-    "build:dark": "npm run build:tokens -- --theme=dark",
-    "build": "npm-run-all build:light build:dark"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,8 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam-colors#readme",
   "devDependencies": {
-    "minimist": "^1.2.8",
-    "npm-run-all": "^4.1.5",
-    "style-dictionary": "^3.7.1"
+    "@parcel/transformer-sass": "^2.12.0",
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.12.0"
   }
 }
