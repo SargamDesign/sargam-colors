@@ -1,6 +1,6 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Colors for designing warm welcoming, caring sites & apps.",
   "source": "src/index.scss",
   "main": "dist/index.css",

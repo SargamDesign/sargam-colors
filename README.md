@@ -19,10 +19,10 @@ npm i @sargamdesign/colors -D
 
 ```html
 <!-- Add this attribute to html wrapper -->
-<html data-sargam-theme="light">
+<html color-scheme="light">
 ```
 
-### Available themes
+### Available Themes
 - light
 - dark
 
