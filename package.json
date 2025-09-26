@@ -1,6 +1,6 @@
 {
   "name": "@sargamdesign/colors",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Colors for designing warm welcoming, caring sites & apps.",
   "source": "src/index.scss",
   "main": "dist/index.css",
@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam-colors#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0",
-    "autoprefixer": "^10.4.20",
-    "parcel": "^2.12.0"
+    "@parcel/transformer-sass": "^2.16.0",
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.16.0"
   }
 }
